@@ -22,19 +22,25 @@ header{
   flex-flow: row wrap;
   justify-content: center;
   align-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   background-color: red;
 }
 
 header > figure{
     margin: 0px;
-    
+    margin-left: auto;
+    margin-right: auto;  
 }
 
 nav{
     display: flex;
     flex-flow: column wrap;
+    margin-left: auto;
+    margin-right: auto;  
 }
 
-.Titre-Nom{
-    
+.Titre_Nom_CV{
+   text-align: center;
+   vertical-align: middle;
 }
