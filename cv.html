@@ -12,6 +12,8 @@ ECE Paris
         <meta name="keywords" content="HTML,CSS,XML,JavaScript">
         <meta name="author" content="Antoine SEWERYN">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Script.js"></script>
+        <link rel="stylesheet" type="text/css" href="./Style.css" />
     </head>
     
     <body>
@@ -22,7 +24,7 @@ ECE Paris
                 <a>COMPETENCES</a>
                 <a>DIVERS</a>
             </nav>
-            <section>
+            <section class="Titre_Nom_CV">
              <h1>Antoine SEWERYN</h1>
             <hr>
             <h2><strong>Recherche de stage: </strong> Assistant chef de projet réseau</h2>
@@ -32,7 +34,18 @@ ECE Paris
             </figure>
         </header>
         
-        <aside>
+        <section>
+            <section>
+                <h3>CONTACT</h3>
+                <form method="post">
+                    <label>E-mail :</label> <input>
+                    <label>Sujet :</label> <input>
+                    <label>Message</label> 
+                    <textarea name="ameliorer"></textarea>
+                    <button onclick="myfunction()">Valider</button>
+                </form>
+            </section>
+            
             <section>
                 <h3>INFOS</h3>
                 <ul>
@@ -52,7 +65,7 @@ ECE Paris
                     </dl>
                </address>
             </section>
-        </aside>
+        </section>
 
         <main>
             <section>
@@ -85,7 +98,7 @@ ECE Paris
                     <table>
                         <tr>
                             <td>2017</td>
-                            <td>SID expert (Société de Service Informatique)</td>
+                            <td><abbr>SID</abbr>expert (Société de Service Informatique)</td>
                             <td>3 mois</td>
                             <td>
                                 <dl>
@@ -104,7 +117,7 @@ ECE Paris
                         
                         <tr>
                             <td>2016</td>
-                            <td>CEBPL (Caisse d'Epargne Bretagne Pays de Loire)</td>
+                            <td><abbr>CEBPL</abbr>(Caisse d'Epargne Bretagne Pays de Loire)</td>
                             <td>1 moi</td>
                             <td>
                                 <dl>
@@ -127,7 +140,7 @@ ECE Paris
                       <table>
                         <tr>
                             <td>2017 - 2018</td>
-                            <td>ECE</td>
+                            <td><abbr>ECE</abbr></td>
                             <td>
                                 <dl>
                                     <dt>Projet annuel</dt>
@@ -157,7 +170,7 @@ ECE Paris
                                             <li>Programmation VHDL</li>
                                         </ul>
                                     </dd>
-                                     <dt>Projet Informatique</dt>
+                                    <dt>Projet Informatique</dt>
                                     <dd>
                                         <ul>
                                             <li>Developpement site Web</li>

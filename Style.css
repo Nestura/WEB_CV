@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19 janv. 2018, 17:55:14
+    Author     : Nestura
+*/
+
+
+body{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-around;
+  background-color: red;
+}
+
+header > figure{
+    margin: 0px;
+    
+}
+
+nav{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.Titre-Nom{
+    
+}
