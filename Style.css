@@ -10,21 +10,18 @@ and open the template in the editor.
 
 
 body{
-    border-style: solid;
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
-    margin-left: 10%;
+    background-color:  #e6e6ff;
+    margin: 0px;
+    font-family: Helvetica, serif; 
 }
 
 header{
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  align-content: space-around;
-  justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color:  #3333ff;
 }
 
 header > figure{
@@ -44,3 +41,12 @@ nav{
    text-align: center;
    vertical-align: middle;
 }
+
+aside{
+
+}
+
+
+
+
+
