@@ -21,7 +21,7 @@ header{
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  background-color:  #3333ff;
+  background-color:  #0033cc;
 margin-left:10px;
 margin-right:10px;
 margin-top:10px;
@@ -83,6 +83,15 @@ background-color:#4d79ff;
 padding: 10px;
 }
 
+#Infos > ul > li > a{
+text-decoration:none;
+}
+
+#Infos > ul > li > a:hover{
+color: #b3c6ff;
+background-color:#0033cc;
+}
+
 #Main_Aside > main{
 width: 75%;
 margin-left:15px;
@@ -96,6 +105,14 @@ margin-bottom:10px;
 
 .Rubrique > h3:nth-child(0){
 
+}
+
+footer{
+background-color: #0033cc;
+padding: 10px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom:10px;
 }
 
 

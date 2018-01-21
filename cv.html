@@ -9,7 +9,7 @@ ECE Paris
         <title>SewerynAntoineOC</title>
         <meta charset="UTF-8">
         <meta name="author" content="Antoine SEWERYN">
-        <script src="Script.js"></script>
+        <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="./Style.css" />
     </head>
     
@@ -37,25 +37,22 @@ ECE Paris
             <section>
                 <h3>CONTACT</h3>
                 <form method="post">
-                    <label>E-mail :</label> <input>
+                    <label>E-mail :</label> <input  id="Email">
                     <label>Sujet :</label> <input>
                     <label>Message</label> 
-                    <textarea name="ameliorer"></textarea>
-                    <button onclick="myfunction()">Valider</button>
+                    <textarea name="Message"></textarea>
+                    <button onclick="validateForm()">Valider</button>
                 </form>
             </section>
             
-            <section>
+            <section id="Infos">
                 <h3>INFOS</h3>
                 <ul>
                     <li>22ans</li>
                     <li>Permis B</li>
                     <li><a href="https://www.linkedin.com/in/antoine-seweryn-050293102/">Linkedin</a></li>
                 </ul>
-            </section>
-            
-            <section>
-                <h3>CONTACT</h3>
+        
                 <address> 
                     <dl>
                     <dt>Adresse :</dt> <dd> 38 Avenue Pasteur</dd>  <dd> 92400 COURBEVOIE</dd>
@@ -68,7 +65,7 @@ ECE Paris
 
         <main>
             <section class="Rubrique" id="Formation">
-                <h3>FORMATION</h3>
+                <h3>FORMATION <a href="#" onclick="hideFormation()" >Masquer</a></h3>
                 <table>                    
                     <tr>
                         <td><abbr>ECE </abbr>(Ecole Centrald'Electronique) Paris</td>
@@ -241,8 +238,13 @@ ECE Paris
             </section>
         </main>
 	</section>
+
         <footer>
-            
+             <details>
+ 		 <summary>Copyright 2018 CV Antoine SEWERYN.</summary>
+ 		 <p> - by Antoine SEWERYN, ECE Paris. All Rights Reserved.</p>
+  		 <p>All content and graphics on this web site are the property of Antoine SEWERYN</p>
+	     </details> 
         </footer>
     </body>
 </html>
