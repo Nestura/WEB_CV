@@ -8,10 +8,7 @@ ECE Paris
     <head>
         <title>SewerynAntoineOC</title>
         <meta charset="UTF-8">
-        <meta name="description" content="Free Web tutorials">
-        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
         <meta name="author" content="Antoine SEWERYN">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="Script.js"></script>
         <link rel="stylesheet" type="text/css" href="./Style.css" />
     </head>
@@ -19,21 +16,23 @@ ECE Paris
     <body>
         <header>
             <nav>
-                <a href= >FORMATION</a>
-                <a>EXPERIENCES</a>
-                <a>COMPETENCES</a>
-                <a>DIVERS</a>
+                <a href="#Formation">FORMATION</a>
+                <a href="#Experiences">EXPERIENCES</a>
+                <a href="#Competences">COMPETENCES</a>
+                <a href="#Divers">DIVERS</a>
             </nav>
-            <section class="Titre_Nom_CV">
+            <section id="Titre_Nom_CV">
              <h1>Antoine SEWERYN</h1>
             <hr>
-            <h2><strong>Recherche de stage: </strong> Assistant chef de projet réseau</h2>
+            <h2><strong> Recherche de stage: </strong> Assistant chef de projet réseau</h2>
             </section>
             <figure>
                 <img src="Profil_CV.jpg" alt="Profil CV" height="120" width="90"> 
             </figure>
         </header>
-        
+
+      <section id="Main_Aside">
+	<h2>MAIN & ASIDE</h2>
         <aside>
             <section>
                 <h3>CONTACT</h3>
@@ -68,15 +67,9 @@ ECE Paris
         </aside>
 
         <main>
-            <section>
+            <section class="Rubrique" id="Formation">
                 <h3>FORMATION</h3>
-                <table>
-                    <tr>
-                        <th>Ecole</th>
-                        <th>Spécialité</th>
-                        <th>Date</th>
-                    </tr>
-                    
+                <table>                    
                     <tr>
                         <td><abbr>ECE </abbr>(Ecole Centrald'Electronique) Paris</td>
                         <td>Objets connectés, réseau et service</td>
@@ -91,7 +84,7 @@ ECE Paris
                 </table>
             </section>
             
-            <section>
+            <section class="Rubrique" id="Experiences">
                 <h3>EXPERIENCES</h3>
                 <section>
                     <h5>Expériences Professionnelles</h5>
@@ -186,7 +179,7 @@ ECE Paris
                 </section>
             </section>
             
-            <section>
+            <section class="Rubrique" id="Competences">
                 <h3>COMPETENCES</h3>
                 <dl>
                     <dt>Gestion de projet</dt>
@@ -238,7 +231,7 @@ ECE Paris
                 </dl>
             </section>
             
-            <section>
+            <section class="Rubrique" id="Divers">
                 <h3>DIVERS</h3>
                 <dl>
                     <dt>Sport : </dt> <dd>Ceinture noire (1er Dan) de la fédération française de judo.</dd>
@@ -247,6 +240,7 @@ ECE Paris
                 </dl>
             </section>
         </main>
+	</section>
         <footer>
             
         </footer>
