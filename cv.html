@@ -65,8 +65,8 @@ ECE Paris
 
         <main>
             <section class="Rubrique" id="Formation">
-                <h3>FORMATION <a href="#" onclick="hideFormation()" >Masquer</a></h3>
-                <table>                    
+                <h3>FORMATION <a href="#" onclick="hide('contenuFormation')" >Masquer/Afficher</a></h3>
+                <table id="contenuFormation">                    
                     <tr>
                         <td><abbr>ECE </abbr>(Ecole Centrald'Electronique) Paris</td>
                         <td>Objets connectés, réseau et service</td>
@@ -82,8 +82,8 @@ ECE Paris
             </section>
             
             <section class="Rubrique" id="Experiences">
-                <h3>EXPERIENCES</h3>
-                <section>
+                <h3>EXPERIENCES <a href="#" onclick="hide('ContenuExperiencesProfessionnelles'); hide('ContenuExperiencesProjets')" >Masquer/Afficher</a></h3>
+                <section id="ContenuExperiencesProfessionnelles">
                     <h5>Expériences Professionnelles</h5>
                     <table>
                         <tr>
@@ -125,7 +125,7 @@ ECE Paris
                     </table>
                 </section>
                 
-                <section>
+                <section id="ContenuExperiencesProjets">
                     <h5>Projets</h5>
                       <table>
                         <tr>
@@ -177,8 +177,8 @@ ECE Paris
             </section>
             
             <section class="Rubrique" id="Competences">
-                <h3>COMPETENCES</h3>
-                <dl>
+                <h3>COMPETENCES <a href="#" onclick="hide('contenuCompetences')" >Masquer/Afficher</a></h3>
+                <dl id="contenuCompetences">
                     <dt>Gestion de projet</dt>
                     <dd>
                         <ul>
@@ -229,8 +229,8 @@ ECE Paris
             </section>
             
             <section class="Rubrique" id="Divers">
-                <h3>DIVERS</h3>
-                <dl>
+                <h3>DIVERS <a href="#" onclick="hide('contenuDivers')" >Masquer/Afficher</a></h3>
+                <dl id ="contenuDivers">
                     <dt>Sport : </dt> <dd>Ceinture noire (1er Dan) de la fédération française de judo.</dd>
                     <dt>Musique : </dt> <dd>Guitare basse dans un groupe.</dd>
                     <dt>Voyage : </dt> <dd>Sénégal, Vietnam,	Malaisie, La Réunion, L'île Maurice...</dd>
