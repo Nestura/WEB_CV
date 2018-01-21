@@ -10,3 +10,9 @@ function hide(id){
 	document.getElementById(id).className = "Masque";
 	}
 }
+
+function ajouterExp(){
+var date= document.getElementById('DateExp').value;
+var description= document.getElementById('DesExp').value;
+document.getElementById('ContenuExperiencesProfessionnelles').innerHTML += '<table><tr><td>' + date + '</td><td>'+ description +'</td></tr></table>';
+}
